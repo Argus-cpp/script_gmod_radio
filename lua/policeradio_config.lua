@@ -1,0 +1,28 @@
+POLICE_RADIO_CONFIG = {}
+
+// Police team
+POLICE_RADIO_CONFIG.TEAMS = {
+	// 1-ая группа
+	{TEAM_RECRUITFBI, TEAM_PULSE, TEAM_ASH, TEAM_THERMITE, TEAM_CASTLE},
+	// 2-ая группа
+	{TEAM_RECRUITSAS, TEAM_THATCHER, TEAM_SLEDGE, TEAM_MUTE, TEAM_SMOKE,},
+	// 3-ая группа
+	{TEAM_RECRUITSPETZNAZ, TEAM_KAPKAN, TEAM_TACHANKIN, TEAM_GLAZ, TEAM_FUZE},
+	// 4-ая группа
+	{TEAM_RECRUITGSG9, TEAM_BLITZ, TEAM_JAGER, TEAM_BANDIT, TEAM_IQ},
+	// 5-ая группа
+	{TEAM_RECRUITGIGN, TEAM_ROOK, TEAM_DOC, TEAM_MONTAGNE},
+	// 6-ая группа
+	{TEAM_DOKKAEBI, TEAM_VIGIL},
+	// 7-ая группа
+	{TEAM_ELA, TEAM_ZOFIA},
+	// 8-ая группа
+	{TEAM_BLACKBEARD, TEAM_VALKYRIE},
+	// 9-ая группа
+	{TEAM_CA, TEAM_NH, TEAM_BP},
+	// 10-ая группа
+	{TEAM_RA, TEAM_PYRO, TEAM_RAMMER, TEAM_FLEGIAN}
+}
+
+// Button for enable/disable radio
+POLICE_RADIO_CONFIG.turnradio = KEY_K -- https://wiki.garrysmod.com/page/Enums/KEY
